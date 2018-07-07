@@ -5,6 +5,7 @@
         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topnav">
           <div id="main">
             <span style="font-size:20px;cursor:pointer" v-on:click="openNav()">&#9776; MENU</span>
+            <div class="button">0</div>
           </div>
         </div>
       </div>
@@ -19,9 +20,6 @@
             <div>
             </div>
           </div>
-          <!-- <div id="main">
-            <span style="font-size:30px;cursor:pointer" v-on:click="openNav()">&#9776; MENU</span>
-          </div> -->
         </div>
       </div>
     </div>
@@ -90,5 +88,22 @@ export default {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+.button {
+  background-color: rgba(44, 43, 44, 0.336);
+  border: none;
+  color: #000;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.button {
+  border-radius: 50%;
 }
 </style>

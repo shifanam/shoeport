@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 part1">
           <div class="card1">
-            <img  src="../assets/orangeshoe.jpg" height="400px" width="400px"/>
+            <img  src="../assets/orangeshoe.png" height="400px" width="400px"/>
             <div class="mytest" id="slideshow-carousel"></div>
           </div>
           <div class="row">
@@ -13,8 +13,8 @@
                 <div id="carousel" class="jcarousel jcarousel-skin-tango">
                   <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
                     <div class="cards">
-                      <img  src="../assets/orangeshoe.jpg" height="100px" width="100px"/>
-                      <span><img src="../assets/orangeshoe.jpg" style="height:50px; width:50px"/></span>
+                      <img  src="../assets/orangeshoe.png" height="100px" width="100px"/>
+                      <span><img src="../assets/orangeshoe.png" style="height:50px; width:50px"/></span>
                     </div>
                   </div>
                   <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">

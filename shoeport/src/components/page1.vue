@@ -15,7 +15,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 logo">
-          <!-- <img  src="../assets/logomain.png" height="200px" width="150px"/> -->
+          <img  src="../assets/logomain.png" height="200px" width="150px"/>
         </div>
       </div>
       <div class="row">
@@ -26,7 +26,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 kicks">
           <h1>KICKASSO</h1>
-          <img  src="../assets/shoes1.png" height="600px" width="650px"/>
+          <img  src="../assets/b4.png" height="600px" width="650px"/>
           <div class="btn-medium">SHOP NOW</div>
         </div>
       </div>
@@ -65,11 +65,14 @@
     letter-spacing: 7px;
     font-family: 'Anton', sans-serif;
   }
+  .logo {
+    margin-top: -40px;
+  }
   .kicks h1 {
     color: white;
     font-family: 'Anton', sans-serif;
     font-size: 200px;
-    margin-top: -5px;
+    margin-top: -90px;
     padding-top: 5%;
     text-shadow: 5px 15px 15px rgba(240, 236, 236, 0.959);
   }
@@ -79,7 +82,7 @@
   .btn-medium {
     background-color:#000;
     font-size: 12px;
-    font-family: 'Roboto';
+    font-family: 'Anton', sans-serif;
     text-align :center;
     color: white;
     width:200px;
@@ -89,5 +92,6 @@
     box-shadow: 0 4px 2px 0 rgba(0.1,0.1,0.1,0.2);
     margin-left: 40%;
     margin-top: -6%;
+    letter-spacing: 2px
   }
 </style>

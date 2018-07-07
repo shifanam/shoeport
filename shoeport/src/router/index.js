@@ -7,6 +7,7 @@ import page4 from '@/components/page4'
 import page5 from '@/components/page5'
 import test from '@/components/test'
 import news from '@/components/news'
+import last from '@/components/last'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/news',
       name: 'news',
       component: news
+    },
+    {
+      path: '/last',
+      name: 'last',
+      component: last
     }
   ]
 })

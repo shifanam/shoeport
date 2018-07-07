@@ -28,7 +28,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 logo">
-          <!-- <img  src="../assets/logomain.png" height="200px" width="150px"/> -->
+          <img  src="../assets/logomain.png" height="200px" width="150px"/>
         </div>
       </div>
       <div class="row">
@@ -39,7 +39,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 kicks">
           <h1>KICKASSO</h1>
-          <img  src="../assets/shoes1.png" height="600px" width="650px"/>
+          <img  src="../assets/b4.png" height="600px" width="650px"/>
           <div class="btn-medium">SHOP NOW</div>
         </div>
       </div>
@@ -101,12 +101,15 @@ export default {
     color: white;
     font-family: 'Anton', sans-serif;
     font-size: 200px;
-    margin-top: -5px;
+    margin-top: -90px;
     padding-top: 5%;
     text-shadow: 5px 15px 15px rgba(240, 236, 236, 0.959);
   }
   .kicks img {
     margin-top: -25%;
+  }
+  .logo {
+    margin-top: -40px;
   }
   .btn-medium {
     background-color:#000;
@@ -148,6 +151,13 @@ export default {
 
 .sidenav a:hover {
   color: #818181;
+}
+.sidenav a:hover:not(.active) {
+  color: #818181;
+}
+
+.sidenav a.active {
+  color:rgb(245, 71, 71);
 }
 
 .sidenav .closebtn {
